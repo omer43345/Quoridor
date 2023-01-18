@@ -39,7 +39,8 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="com.example.quoridor.MainPageController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="434.0" prefWidth="694.0" VBox.vgrow="ALWAYS">
       <children>
@@ -48,7 +49,7 @@
                   <Image url="@maze.jpg" />
                </image>
             </ImageView>
-            <Button alignment="CENTER" defaultButton="true" layoutX="160.0" layoutY="321.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="319.0" style="-fx-background-color: orange;" text="START GAME" textAlignment="CENTER" textFill="#1b1b1b" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="160.4" AnchorPane.rightAnchor="160.40000000000003" AnchorPane.topAnchor="320.0">
+            <Button alignment="CENTER" defaultButton="true" layoutX="160.0" layoutY="321.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="319.0" style="-fx-background-color: orange;" onAction="#startGame" text="START GAME" textAlignment="CENTER" textFill="#1b1b1b" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="160.4" AnchorPane.rightAnchor="160.40000000000003" AnchorPane.topAnchor="320.0" >
                <font>
                   <Font size="38.0" />
                </font>
